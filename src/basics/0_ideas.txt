@@ -1,0 +1,10 @@
+Ideas:
+    - Nullable
+    - as
+    - override
+    - numbers specialities in reference
+    - rangeTo
+    - extension functions
+    - kotlin koans course
+    - array reduce
+    - initializing an array with lambdas
