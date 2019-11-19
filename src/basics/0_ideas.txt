@@ -8,3 +8,4 @@ Ideas:
     - kotlin koans course
     - array reduce
     - initializing an array with lambdas
+    - list reference
