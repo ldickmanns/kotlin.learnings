@@ -1,4 +1,4 @@
-package basics
+package basics.types
 
 /*********************
  * Kotlin Learnings  *
@@ -10,16 +10,20 @@ fun main() {
     val t = true
     val f = false
 
-    // Negation
-    println(t.not())
-    println(!f)
+    // Conjunction
+    println(t.and(f))
+    // Lazy Conjunction
+    println(t && f)
 
-    // Xor
-    println(t.xor(f))
+    // Disjunction
+    println(t.or(f))
+    // Lazy Disjunction
+    println(t || f)
 }
 
 /****************
  * Output:      *
+ * false        *
  * false        *
  * true         *
  * true         *

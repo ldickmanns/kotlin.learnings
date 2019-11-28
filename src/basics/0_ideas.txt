@@ -9,3 +9,4 @@ Ideas:
     - array reduce
     - initializing an array with lambdas
     - list reference
+    - when with other types
