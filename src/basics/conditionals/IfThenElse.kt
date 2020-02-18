@@ -1,4 +1,4 @@
-package basics.controlFlow
+package basics.conditionals
 
 /*********************
  * Kotlin Learnings  *
