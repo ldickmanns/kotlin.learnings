@@ -11,3 +11,8 @@ Ideas:
     - list reference
     - when with other types
     - listOf()
+    - Scope Functions
+    - adding methods to a existing class
+    - operators + - etc.
+    - Data Classes
+    - Default values
