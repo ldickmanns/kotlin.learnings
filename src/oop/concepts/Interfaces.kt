@@ -18,7 +18,7 @@ fun main() {
     println("Square: ${square.area()}")
 }
 
-interface IAreaShape{
+interface IAreaShape {
     fun area(): Double
 }
 
