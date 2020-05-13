@@ -14,7 +14,7 @@ fun main() {
     println(house is House)
     println(familyHouse is House)
 
-    // FamilyHouse is a subtype of House
+    // FamilyHouse is a subtype of House.
     println(house is FamilyHouse)
     println(familyHouse is FamilyHouse)
 }
