@@ -1,4 +1,4 @@
-package basics.dataStructures.trees
+package basics.dataStructures.trees.binary
 
 /************************
  * Kotlin Learnings     *
@@ -6,8 +6,8 @@ package basics.dataStructures.trees
  ************************/
 
 class Node(val data: Int) {
-    public var left: Node? = null
-    public var right: Node? = null
+    var left: Node? = null
+    var right: Node? = null
 
     companion object {
         fun buildTree(): Node {
