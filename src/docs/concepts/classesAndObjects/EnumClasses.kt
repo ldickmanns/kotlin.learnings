@@ -1,4 +1,4 @@
-package concepts.classesAndObjects
+package docs.concepts.classesAndObjects
 
 /************************
  * Kotlin Learnings     *
@@ -29,7 +29,7 @@ fun main() {
         "${Direction.LEFT.name} is declared at position " +
         "${Direction.LEFT.ordinal} in the ${Direction.LEFT.declaringClass}"
     ) /** Output:
-          LEFT is declared at position in the class concepts.classesAndObjects.Direction */
+          LEFT is declared at position in the class docs.concepts.classesAndObjects.Direction */
 
     /** Enums are comparable ordered by the order in which they are defined */
     println(Distance.SHORT < Distance.MEDIUM)   /** Output: true */
