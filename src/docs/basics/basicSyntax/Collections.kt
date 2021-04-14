@@ -29,5 +29,5 @@ fun main() {
         .sortedBy { it }
         .map { it.toLowerCase() }
         .forEach { print("$it ") }
-    /** Output: dog dolphin duck*/
+    /** Output: dog dolphin duck */
 }
