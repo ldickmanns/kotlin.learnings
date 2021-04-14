@@ -21,7 +21,7 @@ fun main() {
     /** As with other boolean expression, you can use "!" to negate in */
     if (6 !in range) println(6) /** Output: 6 */
 
-    /** You can iterate ranges, as well */
+    /** You can iterate over ranges, as well */
     for (i in 0..5) {
         print(i)
     } /** Output: 012345 */
