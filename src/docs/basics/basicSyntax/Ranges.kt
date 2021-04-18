@@ -27,7 +27,7 @@ fun main() {
     } /** Output: 012345 */
     println()
 
-    /** Kotlin also offers so progressions */
+    /** Kotlin also offers so-called progressions */
     for (i in 8 downTo 0 step 2) {
         print(i)
     } /** Output: 86420 */
