@@ -8,7 +8,7 @@ package docs.basics.basicSyntax
  ************************/
 
 fun main() {
-    /** You can create a range with two colons ( .. ) */
+    /** You can create a range with two dots ( .. ) */
     val range = 0..5
 
     /** With "in" you can check if a number is in the range */
