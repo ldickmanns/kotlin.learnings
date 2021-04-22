@@ -1,4 +1,4 @@
-package learnings.kotlin.fancyFeatures
+package docs.basics.idioms
 
 /************************
  * Kotlin Learnings     *
