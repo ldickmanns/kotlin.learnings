@@ -9,14 +9,15 @@ package docs.basics.idioms
 /** With the with function, you can call
  *  multiple methods on an object instance */
 fun main() {
-    val i = 5
+    val list = mutableListOf(1, 2, 3)
 
-    with(i) {
-        plus(2)     // 7
-        minus(5)    // 2
-        times(3)    // 6
-    }
+    val arr = with(list) {
+        add(4)                  // [1, 2, 3, 4]
+        add(0, 0) // [0, 1, 2, 3, 4]
+        removeAt(2)       // [0, 1, 3, 4]
+        toIntArray()
+    } /** You can return something other than list */
 
-    println(i)
-    // Output: 6
+    println(arr.contentToString())
+    // Output: [0, 1, 3, 4]
 }
