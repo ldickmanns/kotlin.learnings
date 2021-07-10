@@ -29,5 +29,6 @@ fun main() {
     labeledReturn()
     // Output:
     // Car
+    // Cat
     // Reachable
 }
