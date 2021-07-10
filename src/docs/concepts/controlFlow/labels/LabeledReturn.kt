@@ -17,7 +17,7 @@ fun normalReturn() {
 fun labeledReturn() {
     listOf("Car", "Ball", "Cat").forEach here@{
         if (it == "Ball") return@here
-        println("Car")
+        println(it)
     }
     println("Reachable")
 }
