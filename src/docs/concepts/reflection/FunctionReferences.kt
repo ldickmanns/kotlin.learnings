@@ -24,8 +24,9 @@ fun main() {
     /** `printFromFactory` expects a function producing a String */
     val dowFactory = ::getDayOfWeek
     printFromFactory(dowFactory)
-    // Output: Tuesday
+    // Output: Saturday (depends on the day you run it)
 
     /** We can even inline the call */
     printFromFactory(::getDayOfWeek)
+    // Output: Saturday (depends on the day you run in)
 }
