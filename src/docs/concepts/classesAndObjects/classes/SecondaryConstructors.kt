@@ -1,4 +1,4 @@
-package docs.concepts.classesAndObjects
+package docs.concepts.classesAndObjects.classes
 
 /*************************
  * Kotlin Learnings      *
