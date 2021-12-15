@@ -1,5 +1,11 @@
 package docs.concepts.classesAndObjects.inheritance
 
+/********************
+ * Kotlin Learnings *
+ ********************
+ * Open Classes     *
+ ********************/
+
 /** By default, Kotlin classes are not extensible */
 class NotExtensible
 // The following would cause an error
