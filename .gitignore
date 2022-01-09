@@ -123,3 +123,6 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Ideas for future posts
+ideas.txt
