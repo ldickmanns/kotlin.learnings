@@ -9,6 +9,10 @@ plugins {
 group = "com.ldickmanns"
 version = "1.0"
 
+sourceSets.main {
+    java.srcDir("src")
+}
+
 repositories {
     mavenCentral()
 }
