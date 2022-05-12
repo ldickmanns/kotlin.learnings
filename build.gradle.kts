@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.10")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
     implementation("org.openjfx:javafx-fxml:17.0.2")
 
     implementation("org.slf4j:slf4j-api:1.7.36")
