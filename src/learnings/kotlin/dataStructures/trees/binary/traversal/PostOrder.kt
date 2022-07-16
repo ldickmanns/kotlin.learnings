@@ -1,6 +1,6 @@
-package learnings.kotlin.basics.dataStructures.trees.binary.traversal
+package learnings.kotlin.dataStructures.trees.binary.traversal
 
-import learnings.kotlin.basics.dataStructures.trees.binary.Node
+import learnings.kotlin.dataStructures.trees.binary.Node
 
 /************************
  * Kotlin Learnings     *
