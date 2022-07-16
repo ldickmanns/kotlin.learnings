@@ -1,4 +1,4 @@
-package learnings.kotlin.dataStructures
+package learnings.kotlin.dataStructures.lists
 
 /*********************
  * Kotlin Learnings  *
