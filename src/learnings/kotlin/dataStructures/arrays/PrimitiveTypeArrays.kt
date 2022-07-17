@@ -1,4 +1,4 @@
-package learnings.kotlin.basics.arrays
+package learnings.kotlin.dataStructures.arrays
 
 /************************
  * Kotlin Learnings     *

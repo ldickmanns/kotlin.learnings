@@ -1,4 +1,4 @@
-package learnings.kotlin.basics.arrays
+package learnings.kotlin.dataStructures.arrays
 
 /************************
  * Kotlin Learnings     *
@@ -6,10 +6,9 @@ package learnings.kotlin.basics.arrays
  ************************/
 
 fun main() {
-    // Constructor
-    val array = Array(5) { it }
-    array.forEach { print(it) }
-    // Output: 01234
+    // Array factory function
+    val array = arrayOf("Hello World!", 42)
+    println(array)
 }
 
 /****************

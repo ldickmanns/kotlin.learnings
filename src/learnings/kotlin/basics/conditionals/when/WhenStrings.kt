@@ -1,4 +1,4 @@
-package learnings.kotlin.basics.conditionals
+package learnings.kotlin.basics.conditionals.`when`
 
 /*********************
  * Kotlin Learnings  *

@@ -1,4 +1,4 @@
-package learnings.kotlin.basics.dataStructures.trees.binary
+package learnings.kotlin.dataStructures.trees.binary
 
 /************************
  * Kotlin Learnings     *

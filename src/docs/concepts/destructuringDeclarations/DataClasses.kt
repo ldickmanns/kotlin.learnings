@@ -1,4 +1,4 @@
-package docs.destructuringDeclarations
+package docs.concepts.destructuringDeclarations
 
 /********************
  * Kotlin Learnings *
