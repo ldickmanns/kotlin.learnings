@@ -6,6 +6,8 @@ package docs.destructuringDeclarations
  * Data Classes     *
  ********************/
 
+// TODO idea
+
 data class Person(
     val name: String,
     val age: Int,
