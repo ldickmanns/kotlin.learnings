@@ -9,19 +9,17 @@ fun main() {
     val alice = User("Alice", 21)
     val moviesForAlice = getRecommendations(alice)
     println(moviesForAlice)
-    // [Comedy Movie, Documentation, Action Movie,
-    // Horror Movie, Love Story Movie]
+    // [Comedy, Documentation, Action, Horror, Love Story]
 
     val bob = User("Bob", 17)
     val moviesForBob = getRecommendations(bob)
     println(moviesForBob)
-    // [Comedy Movie, Documentation,
-    // Action Movie, Love Story Movie]
+    // [Comedy, Documentation, Action, Love Story]
 
     val charlie = User("Charlie", 14)
     val moviesForCharlie = getRecommendations(charlie)
     println(moviesForCharlie)
-    // [Comedy Movie, Documentation, Love Story Movie]
+    // [Comedy, Documentation, Love Story]
 }
 
 fun getRecommendations_(user: User): List<String> {
