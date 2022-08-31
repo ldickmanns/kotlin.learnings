@@ -10,11 +10,15 @@ package docs.basics.basicSyntax
 fun main() {
     val name = "Kotlin"
 
+    /** Without string template */
+    println("Hello" + name + "!")
+    /** Output: Hello Kotlin! */
+
     /** Simple template */
     println("Hello $name!")
     /** Output: Hello Kotlin! */
 
     /** Expression in a template */
-    println("Hello ${name.toUpperCase()}!")
+    println("Hello ${name.uppercase()}!")
     /** Output: Hello KOTLIN! */
 }
