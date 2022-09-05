@@ -10,8 +10,7 @@ import kotlin.properties.Delegates
 
 class Journey {
     var distanceTraveled by Delegates.vetoable(0) {
-        _, oldValue, newValue ->
-        newValue > oldValue
+        _, oldValue, newValue -> newValue > oldValue
     }
 }
 
