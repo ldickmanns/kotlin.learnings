@@ -17,5 +17,7 @@ object ObservableSample {
 
 fun main() {
     ObservableSample.value = "World"
+    // Hello -> World
     println(ObservableSample.value)
+    // World
 }
