@@ -22,7 +22,6 @@ class Test : Iterable<Int> {
 
 class Test2 : Iterator<Int> by iterator
 
-
 class Test3 {
     operator fun iterator(): Iterator<Int> = iterator
 }
