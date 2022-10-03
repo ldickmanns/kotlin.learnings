@@ -1,5 +1,11 @@
 package docs.standardLibrary.scopeFunctions
 
+/********************
+ * Kotlin Learnings *
+ ********************
+ * Apply Run        *
+ ********************/
+
 interface Car
 
 interface CarBuilder {
@@ -22,7 +28,7 @@ fun oldBuildCar(carBuilder: CarBuilder): Car {
     return car
 }
 
-fun buildCar(carBuilder: CarBuilder):Car {
+fun buildCarApply(carBuilder: CarBuilder): Car {
     val car = carBuilder.apply {
         addLeatherSeats()
         addRoofWindow()
