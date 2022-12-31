@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.6.10"
+    kotlin("jvm") version "1.8.0"
     application
     id("org.openjfx.javafxplugin") version "0.0.10"
 }
@@ -18,8 +18,9 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
+    val kotlinVersion = "1.8.0"
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
     implementation("org.openjfx:javafx-fxml:17.0.2")
 
     implementation("org.slf4j:slf4j-api:1.7.36")
@@ -30,7 +31,10 @@ dependencies {
 }
 
 tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions {
+        languageVersion = "1.8"
+        jvmTarget = "1.8"
+    }
 }
 
 javafx {
